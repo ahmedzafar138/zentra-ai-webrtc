@@ -1,5 +1,6 @@
 # start-dev.ps1
 
+#update the root according to your local path
 $Root = "C:\Users\HP\Desktop\zentra webrtc"
 
 function Start-DevService {
@@ -44,4 +45,4 @@ Start-DevService `
 Start-DevService `
     -Title "Expo App" `
     -Path "$Root\zentra-main" `
-    -Command "npm run dev:client"
+    -Command "npx expo run:android"
