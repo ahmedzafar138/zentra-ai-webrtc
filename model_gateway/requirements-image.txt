@@ -1,0 +1,7 @@
+-r requirements.txt
+
+# Optional backend image decoding / MediaPipe extraction support.
+# The WebRTC mobile path sends landmarks directly and does not need these.
+opencv-python==4.10.0.84
+mediapipe==0.10.14
+Pillow

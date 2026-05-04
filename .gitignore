@@ -1,0 +1,94 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local notes / generated repo context
+/ISSUES.md
+/REPOSITORY_KNOWLEDGE_BASE.md
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p8
+*.p12
+*.jks
+*.mobileprovision
+
+# Logs and diagnostics
+logs/
+*.log
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+expo-*.log
+*.out.log
+*.err.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+site-packages/
+
+# Python virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Node / Expo / React Native
+node_modules/
+.expo/
+.expo-shared/
+web-build/
+dist-ssr/
+.metro-health-check*
+*.tsbuildinfo
+expo-env.d.ts
+
+# Native build outputs and local build files
+android/
+ios/
+*.orig.*
+*.apk
+*.aab
+*.ipa
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+.cache/
+
+# Local app data / generated ML caches
+*.faiss
+backend/rag/data/pdf/*
+backend/rag/data/txt/*
+!backend/rag/data/pdf/.gitkeep
+!backend/rag/data/txt/.gitkeep

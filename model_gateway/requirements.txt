@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+aiortc==1.9.0
+numpy==1.26.4
+# CPU inference dependency. On native Windows this installs TensorFlow's CPU runtime.
+# If TensorFlow DLL loading fails, repair/install Microsoft Visual C++ Redistributable
+# 2015-2022 x64 before changing this package.
+tensorflow-cpu==2.16.2
+# optree 0.19.0 crashes during import on this Windows/Python 3.10 stack.
+optree==0.14.1
+pydantic>=2,<3
