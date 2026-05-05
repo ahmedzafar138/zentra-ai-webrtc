@@ -2,7 +2,7 @@
 # Automatically updates frontend .env API URLs with the current laptop IPv4 address.
 
 param (
-    [string]$FrontendPath = "C:\Users\HP\Desktop\zentra JJ\zentra-main"
+    [string]$FrontendPath = "C:\Users\HP\Desktop\zentra webrtc\zentra-main"
 )
 
 Write-Host ""
